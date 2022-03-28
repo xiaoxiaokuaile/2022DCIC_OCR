@@ -1,0 +1,2 @@
+timm
+git+https://github.com/pabloppp/pytorch-tools -U
