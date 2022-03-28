@@ -8,9 +8,9 @@
 #### 建模方案：
 
 建模方案主要尝试了三种：
-- 第一种就是用OCR方法CTC loss, 具体代码见./ctc_pytorch/文件夹,尝试了OCR方法的一些数据增强操作及搭建模型; 
-- 第二种则是利用 CrossEntropyLoss 多分类的方法, 具体代码见./pt_classify/, 尝试了cutmix,mixup,cutout,及常见的数据增强方法等; 
-- 第三种是 MultiLabelSoftMarginLoss 的多标签多分类方法, 具体代码见./classify_248/, 结合第二种方案的调参经验主要尝试了 cutout, mixup 的数据增强方法, 之后调参优化模型泛化性能。
+- 第一种就是用OCR方法CTC loss, 具体代码见./CTC_model/文件夹,尝试了OCR方法的一些数据增强操作及搭建模型; 
+- 第二种则是利用 CrossEntropyLoss 多分类的方法, 具体代码见./CrossEntropy_model/, 尝试了cutmix,mixup,cutout,及常见的数据增强方法等; 
+- 第三种是 MultiLabelSoftMarginLoss 的多标签多分类方法, 具体代码见./MultiLabelSoftMargin_model/, 结合第二种方案的调参经验主要尝试了 cutout, mixup 的数据增强方法, 之后调参优化模型泛化性能。
 
 ## <center>2.具体方案</center>
 #### 2.1.文件夹结构
